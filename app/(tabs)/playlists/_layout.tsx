@@ -3,16 +3,16 @@ import React from "react";
 import { defaultStyles } from "@/styles";
 import { Stack } from "expo-router";
 
-const FavoritesScreenLayout = () => {
+const PlaylistsScreenLayout = () => {
   return (
     <View style={defaultStyles.container}>
       <Stack>
-        <Stack.Screen name="index" options={{ headerTitle: "Favorites" }} />
+        <Stack.Screen name="index" options={{ headerTitle: "Playlists" }} />
       </Stack>
     </View>
   );
 };
 
-export default FavoritesScreenLayout;
+export default PlaylistsScreenLayout;
 
 const styles = StyleSheet.create({});
